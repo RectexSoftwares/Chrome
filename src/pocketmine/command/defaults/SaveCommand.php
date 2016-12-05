@@ -25,7 +25,6 @@ use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
 use pocketmine\event\TranslationContainer;
 
-
 class SaveCommand extends VanillaCommand{
 
 	public function __construct($name){
@@ -42,7 +41,7 @@ class SaveCommand extends VanillaCommand{
 			return true;
 		}
 
-		Command::broadcastCommandMessage($sender, new TranslationContainer("commands.save.start"));
+		Command::broadcastCommandMessage($sender, new TranslationContainer("§9Saveing..."));
 
 		foreach($sender->getServer()->getOnlinePlayers() as $player){
 			$player->save();
@@ -52,7 +51,7 @@ class SaveCommand extends VanillaCommand{
 			$level->save(true);
 		}
 
-		Command::broadcastCommandMessage($sender, new TranslationContainer("commands.save.success"));
+		Command::broadcastCommandMessage($sender, new TranslationContainer("§9Complete!"));
 
 		return true;
 	}
