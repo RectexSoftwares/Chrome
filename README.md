@@ -8,14 +8,6 @@ Chrome is a server software based on **[PocketMine-MP](https://github.com/pmmp/P
 Some of the extended functionality that Chrome offers:
 
 * Soon...
-Help & Support
--------------
-Discussion
--------------
-* [Mattermost](https://mattermost.itxtech.org/itxtechnologies/channels/genisys)
-* [Gitter](https://gitter.im/iTXTech/Genisys?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-* IRC Chat #genisys @ irc.freenode.net [Webchat](http://webchat.freenode.net/?channels=#genisys)
-
 Licence
 -------------
 	This program is free software: you can redistribute it and/or modify
