@@ -54,7 +54,7 @@ class DeopCommand extends VanillaCommand{
 		$player = $sender->getServer()->getOfflinePlayer($name);
 		$player->setOp(false);
 		if($player instanceof Player){
-			$player->sendMessage(TextFormat::GRAY . "You are no longer op!");
+			$player->sendMessage(TextFormat::YELLOW . "You're no longer Administrator!");
 		}
 		Command::broadcastCommandMessage($sender, new TranslationContainer("commands.deop.success", [$player->getName()]));
 
