@@ -165,6 +165,7 @@ class Anvil extends McRegion{
 
 		return null;
 	}
+	}
 
 	/**
 	 * @param $x
